@@ -11,10 +11,10 @@ import "./IEncoreVault.sol";
 import "@nomiclabs/buidler/console.sol";
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol"; // for WETH
-import "./uniswapv2/interfaces/IUniswapV2Factory.sol"; // interface factorys
-import "./uniswapv2/interfaces/IUniswapV2Router02.sol"; // interface factorys
+import "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol"; // interface factorys
+import "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol"; // interface factorys
 import '@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
-import "./uniswapv2/interfaces/IWETH.sol";
+import "@uniswap/v2-periphery/contracts/interfaces/IWETH.sol";
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
